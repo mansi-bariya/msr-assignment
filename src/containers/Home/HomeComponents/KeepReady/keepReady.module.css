@@ -1,0 +1,37 @@
+.imgWrap {
+  position: relative;
+}
+
+.imgWrap img {
+  width: 100%;
+}
+
+.contentWrap {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
+
+.contentWrap h3 {
+  font-family: var(--font-secondary);
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.contentWrap span {
+  font-family: var(--font-secondary);
+  font-size: calc(var(--font-26) + 2px);
+  font-weight: 500;
+  color: var(--white);
+}
+
+@media (max-width: 767px) {
+  .contentWrap {
+    padding: 0 12px;
+    width: 100%;
+    right: 0;
+  }
+}
